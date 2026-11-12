@@ -4,7 +4,7 @@
 
 class Block {
     private:
-        std::string nonce;
+        std::uint64_t nonce;
         std::string hash;
         std::string timeStamp;
         std::string prevHash;
